@@ -20,4 +20,4 @@ built with vanilla JavaScript, HTML, and CSS.
 Just open `index.html` in any browser — no installation needed.
 
 ## Live demo
-[sorting-visualizer link here]
+ https://dmchbruh.github.io/sorting-visualizer/
