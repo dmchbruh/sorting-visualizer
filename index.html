@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Sorting Algorithm Visualizer</h1>
+
+    <div id="controls">
+        <button onclick="generateArray()">New Array</button>
+        <button onclick="bubbleSort()">Bubble Sort</button>
+        <button onclick="selectionSort()">Selection Sort</button>
+        <button onclick="insertionSort()">Insertion Sort</button>
+        <button onclick="quickSort()">Quick Sort</button>
+        <button onclick="mergeSort()">Merge Sort</button>
+        </div>
+        </div>
+    </div>
+
+    <div id="sliders">
+        <label>Speed: <input type="range" id="speedSlider" min="1" max="200" value="50"></label>
+        <label>Size: <input type="range" id="sizeSlider" min="10" max="100" value="30"></label>
+    </div>
+
+    <div id="stats">
+        <span>Comparisons: <strong id="compCount">0</strong></span>
+        <span>Swaps: <strong id="swapCount">0</strong></span>
+    </div>
+
+    <div id="info-box">
+        <h2 id="algo-name">Select an algorithm</h2>
+        <p id="algo-desc">Press a sorting button to begin.</p>
+        <p id="algo-complexity"></p>
+    </div>
+
+    <div id="array-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
